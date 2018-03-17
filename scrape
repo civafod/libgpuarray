@@ -1,0 +1,80 @@
+[  1%] Generating cluda_opencl.h.c
+[  2%] Generating cluda_cuda.h.c
+Scanning dependencies of target gpuarray
+[  3%] Building C object src/CMakeFiles/gpuarray.dir/cache/lru.c.o
+[  5%] Building C object src/CMakeFiles/gpuarray.dir/cache/twoq.c.o
+[  6%] Building C object src/CMakeFiles/gpuarray.dir/cache/disk.c.o
+[  7%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_types.c.o
+[  8%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_error.c.o
+[ 10%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_util.c.o
+[ 11%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_buffer.c.o
+[ 12%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_buffer_blas.c.o
+[ 13%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_buffer_collectives.c.o
+[ 15%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_array.c.o
+[ 16%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_array_blas.c.o
+[ 17%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_array_collectives.c.o
+[ 18%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_kernel.c.o
+[ 20%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_extension.c.o
+[ 21%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_elemwise.c.o
+[ 22%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_reduction.c.o
+[ 23%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_buffer_cuda.c.o
+[ 25%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_blas_cuda_cublas.c.o
+[ 26%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_collectives_cuda_nccl.c.o
+[ 27%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_buffer_opencl.c.o
+[ 28%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_blas_opencl_clblas.c.o
+[ 30%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_blas_opencl_clblast.c.o
+[ 31%] Building C object src/CMakeFiles/gpuarray.dir/gpuarray_strl.c.o
+[ 32%] Building C object src/CMakeFiles/gpuarray.dir/util/strb.c.o
+[ 33%] Building C object src/CMakeFiles/gpuarray.dir/util/error.c.o
+[ 35%] Building C object src/CMakeFiles/gpuarray.dir/util/xxhash.c.o
+[ 36%] Building C object src/CMakeFiles/gpuarray.dir/util/integerfactoring.c.o
+[ 37%] Building C object src/CMakeFiles/gpuarray.dir/util/skein.c.o
+[ 38%] Building C object src/CMakeFiles/gpuarray.dir/loaders/dyn_load.c.o
+[ 40%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libcuda.c.o
+[ 41%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libnvrtc.c.o
+[ 42%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libcublas.c.o
+[ 43%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libnccl.c.o
+[ 45%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libopencl.c.o
+[ 46%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libclblas.c.o
+[ 47%] Building C object src/CMakeFiles/gpuarray.dir/loaders/libclblast.c.o
+[ 48%] Linking C shared library ../lib/libgpuarray.so
+[ 50%] Built target gpuarray
+Scanning dependencies of target gpuarray-static
+[ 51%] Building C object src/CMakeFiles/gpuarray-static.dir/cache/lru.c.o
+[ 52%] Building C object src/CMakeFiles/gpuarray-static.dir/cache/twoq.c.o
+[ 53%] Building C object src/CMakeFiles/gpuarray-static.dir/cache/disk.c.o
+[ 55%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_types.c.o
+[ 56%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_error.c.o
+[ 57%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_util.c.o
+[ 58%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_buffer.c.o
+[ 60%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_buffer_blas.c.o
+[ 61%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_buffer_collectives.c.o
+[ 62%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_array.c.o
+[ 63%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_array_blas.c.o
+[ 65%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_array_collectives.c.o
+[ 66%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_kernel.c.o
+[ 67%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_extension.c.o
+[ 68%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_elemwise.c.o
+[ 70%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_reduction.c.o
+[ 71%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_buffer_cuda.c.o
+[ 72%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_blas_cuda_cublas.c.o
+[ 73%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_collectives_cuda_nccl.c.o
+[ 75%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_buffer_opencl.c.o
+[ 76%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_blas_opencl_clblas.c.o
+[ 77%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_blas_opencl_clblast.c.o
+[ 78%] Building C object src/CMakeFiles/gpuarray-static.dir/gpuarray_strl.c.o
+[ 80%] Building C object src/CMakeFiles/gpuarray-static.dir/util/strb.c.o
+[ 81%] Building C object src/CMakeFiles/gpuarray-static.dir/util/error.c.o
+[ 82%] Building C object src/CMakeFiles/gpuarray-static.dir/util/xxhash.c.o
+[ 83%] Building C object src/CMakeFiles/gpuarray-static.dir/util/integerfactoring.c.o
+[ 85%] Building C object src/CMakeFiles/gpuarray-static.dir/util/skein.c.o
+[ 86%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/dyn_load.c.o
+[ 87%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libcuda.c.o
+[ 88%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libnvrtc.c.o
+[ 90%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libcublas.c.o
+[ 91%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libnccl.c.o
+[ 92%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libopencl.c.o
+[ 93%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libclblas.c.o
+[ 95%] Building C object src/CMakeFiles/gpuarray-static.dir/loaders/libclblast.c.o
+[ 96%] Linking C static library ../lib/libgpuarray-static.a
+[100%] Built target gpuarray-static
